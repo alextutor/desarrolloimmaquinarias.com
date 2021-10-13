@@ -1,0 +1,6 @@
+
+git branch -M main
+git add .
+git commit -m 'Subilos archivos por primera el local al repositorio'
+git remote add origin https://github.com/alextutor/desarrolloimmaquinarias.com.git
+git push -u origin main

@@ -1,0 +1,18 @@
+/* a:hover{color:#0C7F34}
+.stykerheadercolor{background-color: #ffffff!important;}
+
+*/
+
+/*.elementor-sticky--effects{ background-color: black;}*/
+
+
+/*
+.hfe-nav-menu__layout-horizontal a {
+ color : red !important;
+}
+
+*/
+#widget-area-footer {
+    position: fixed; width: 300px;  bottom: 60px;   padding-left: 50px;  padding-right: 50px;   z-index: 98;    right: 100px;
+}
+

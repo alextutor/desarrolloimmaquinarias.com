@@ -1,0 +1,38 @@
+https://www.youtube.com/watch?v=iZZSxJlGTqw&t=1466s
+Los mejores plugins para WooCommerce | Curso WooCommerce 2021
+
+
+1) Ver carrito abandonados
+abandoned cart lite for woocommerce
+opcion para enviar un email a los clientes que abandonaron su compra 
+hacerle recordar que tienen pendiente una compra
+
+2) Advanced Woo Search
+Buscador de productos Woocommerce ... es decir al escribir en el buscador 
+ya sale una lista de sugerencias de productos
+
+3) Checkout Manager for WooCommerce
+
+En Finalizar compra agrega o quita campos (facturacion,envios); tambien formatea el ancho
+
+Acceso
+Woocomerce --> Ajustes
+
+4) Yith WooCommerce Wishlist - Lista de deseos en los productos de la portada 
+
+Activar Ajax para que lo haga automaticamente sin recargar la pagina
+
+5) Lista de Subscriptores - MailPoet
+viene con su plagin de carrito abandonado , se pueden enviar ofertas,cupones, etc
+	
+
+5) TI WooCommerce Wishlist  - Lista de deseos en los productos de la portada 
+Añadir a la lista de deseos
+
+6) Crear Nuevas Pestañas Personalizadas en el detalle del producto
+
+Plugin Custom Product Tabs para WooCommerce
+
+WooCommerce viene por defecto  con la pestañas de Descripcion ,  Valorizaciones y opcion adicional
+Por lo general no te deja crear mas pestañas.
+

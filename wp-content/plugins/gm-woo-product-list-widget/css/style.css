@@ -1,0 +1,33 @@
+.gmwplw-product {
+    vertical-align: middle;
+    text-align: left;
+    margin-bottom: 5px !important;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+.gmwplw-product .lefmss{
+    margin-top: 0;
+    float: left;
+    width: 40px;
+}
+.gmwplw-product .gmwproduct-title{
+   /* margin-left: 5px;*/
+}
+.rightss{
+	margin-left: 5px;
+    float: left;
+}
+.gmproduct-price{
+	    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+.gmproduct-rating{
+	float: left;
+	width: 100%;
+}
+.gmproduct-rating .star-rating{
+	float: left !important;
+}

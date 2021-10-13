@@ -1,0 +1,30 @@
+#header_ctn
+	#mimenu-principal
+
+
+
+----------Iconos Servicios--------------
+#ttcmsservices1
+#ttservice1-ico1
+#ttservice1-text1
+
+#ttcmsservices2
+#ttservice1-ico2
+#ttservice1-text2
+
+#ttcmsservices4
+#ttservice1-ico4
+#ttservice1-text4
+------------------------
+
+
+#footer-container
+.footer_nuestra_organizacion
+.footer_ubicanos
+.footer_productos_destacados
+
+
+
+
+
+

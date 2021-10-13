@@ -1,0 +1,23 @@
+.footer-width-fixer a:hover{color:#3D68D5}
+.gmwproduct-title{color:#FFFFFF}
+.gmwplw-product{border-bottom: none;}
+/*tamaño del logo*/
+.hfe-site-logo-img{
+width: 100px;  height: 80px!important;}
+
+/*Inicio CSS productos portada*/
+.elementor-products-grid ul.products.elementor-grid li.product{padding: 10px;}
+
+.woocommerce ul.products .product-inner {
+	border: 1px solid #013166;
+	border-radius: 15px;
+	transition: all .2s ease-out;	
+
+}
+
+.woocommerce ul.products .product-inner:hover{
+	box-shadow: 1px 1px 3px 3px #9ac3f1;
+    margin-top: 0px;
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgb(0 0 0 / 15%);
+}

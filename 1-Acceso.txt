@@ -1,0 +1,52 @@
+www.desarrolloimmaquinaria.com
+d:/google drive/web/wampserver64/www/desarrolloimmaquinaria.com
+
+Base de datos		immaquinarias.com
+Usuario			alextuto_r
+contraseña		0403221757
+
+-------------------------Administracion----------------------
+
+http://www.desarrolloimmaquinarias.com/wp-login.php
+
+Usuario			admind
+contraseña		w@&!#g6zrA8OzaUyrd
+
+
+-------------------------Acceso cPanel---------------------------------------
+www.immaquinaria.com/cpanel
+
++===================================+
+| New Account Info                  |
++===================================+
+| Domain: immaquinaria.com
+| Ip: 75.102.22.57 (n)
+| HasCgi: y
+| UserName: immaquinaria
+| PassWord: pUwZeg6V!piBCtX
+| CpanelMod: paper_lantern
+| HomeRoot: /home
+| Quota: 2,93 GB
+| NameServer1: ns1.unidadvirtual.com
+| NameServer2: ns2.unidadvirtual.com
+| NameServer3: 
+| NameServer4: 
+| Contact Email: soporte@unidadvirtual.com
+| Package: unidadvirtual_3GB
+| Feature List: default
+| Account Enhancements: None
+| Language: es
++===================================+
+
+Administrador Dominio
+------------------------------
+https://unidadvirtual.myorderbox.com/servlet/ViewDomainServlet?orderid=98522067&referrerkey=WjNOeFNmd2ViTmlLdzNPOVBXVnpQUjIvM2pENVcrc2tDcThUOWptaytVUVFpRnFvUkZmNkJRPT0=
+
+
+
+Cuentas de Correo
+--------------------------
+webmaster@immaquinaria.com
+7.*Neo;N?,RW
+
+

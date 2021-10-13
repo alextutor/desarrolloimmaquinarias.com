@@ -1,0 +1,190 @@
+/* ---- Product Badges Styling ---- */
+.wcz-pbadge-wrap {
+    display: flex;
+    align-items: flex-start;
+}
+.wcz-pbadge-settings {
+    flex: 1;
+}
+.wcz-pbadge-preview {
+    margin: 12px 0 0;
+}
+.wcz-pbadge-product {
+    margin: 0 0 10px;
+}
+.wcz-pbadge-product-img {
+    background-color: #f7f7f7;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.18);
+    position: relative;
+}
+.wcz-pbadge-product-img span.dashicons-format-image {
+    width: 33px;
+    height: 33px;
+    font-size: 34px;
+    color: #757575;
+    cursor: pointer;
+}
+.wcz-pbadge-preview span.dashicons-format-image:hover::before {
+    color: #555;
+    content: "\f317";
+}
+.wcz-pbadge-product img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.wcz-pbadge-product h3.title {
+    margin: 8px 0 10px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.wcz-pbadge-product .price {
+    color: #404040;
+    text-align: center;
+}
+.wcz-pbadge-product .fake-button {
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 0 1px 2px rgba(0, 0, 0, 0.06);
+    padding: 10px 25px 12px;
+    margin: 15px auto 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: inherit;
+    text-align: center;
+}
+
+/* ---- Settings ---- */
+.pbadges-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 10px 0 20px;
+}
+.pbadges-block {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 140px;
+    height: 120px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pbadges-block.active {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.85), 1px 1px 8px rgb(0, 0, 0, 0.7);
+    background-color: #FFF;
+}
+.pbadges-block.custom {
+    flex-direction: column;
+}
+.custom-badge-in {
+    font-size: 11px;
+    color: #878888;
+}
+.pbadges-block.custom img {
+    max-width: 40px;
+    height: auto;
+    margin: 0 auto 5px;
+}
+.wcz-meta-setting {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px;
+}
+.wcz-meta-setting.separate {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    margin: 30px 0 0;
+    padding: 30px 0 0;
+}
+.wcz-meta-setting input,
+.wcz-meta-setting select,
+.wcz-meta-setting button.wp-color-result.button {
+    margin: 0;
+}
+.wcz-meta-setting input.wcz-pbadge-text,
+.wcz-meta-setting select#wcz-pbadge-position,
+.wcz-meta-setting input.wcz-pbadge-fsize,
+.wcz-meta-setting input.wcz-pbadge-custom {
+    width: 227px;
+}
+.wcz-meta-setting #wcz-pbadge-horizoffset-pos,
+.wcz-meta-setting #wcz-pbadge-vertoffset-pos {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 95px;
+    margin: 0 5px 0 -1px;
+}
+.wcz-pbadge-offpos {
+    font-size: 15px;
+    color: #696868;
+}
+.wcz-pbadge-desc {
+    margin: 5px 0 0;
+    padding: 0;
+    font-size: 11px;
+    letter-spacing: 0.4px;
+    color: #a9a9a9;
+}
+.wcz-pbadge-desc span {
+    color: #222;
+}
+.wcz-meta-setting .wcz-pbadge-horizoffset-no,
+.wcz-meta-setting .wcz-pbadge-vertoffset-no {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 60px;
+    margin: 0 5px 0 2px;
+}
+.wcz-meta-left {
+    width: 240px;
+}
+.wcz-meta-left.align label {
+    display: block;
+    margin: 0 0 22px;
+}
+.wcz-meta-right {
+    flex: 1;
+}
+.wcz-pbadge-note {
+    font-size: 11px;
+    color: #9a9a9a;
+    letter-spacing: 0.4px;
+    margin: 40px 0 0;
+}
+.wcz-pbadge-note a {
+    color: inherit;
+}
+.wcz-pbadge-note a:hover {
+    color: #0173aa;
+}
+.wcz-upload-img {
+    max-width: 200px;
+    position: relative;
+}
+.wcz-upload-image img {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.18);
+    max-width: 100%;
+    height: auto;
+}
+#wcz-custom-rm {
+    position: absolute;
+    top: 50%;
+    right: -70px;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    margin: -12px 0 0;
+    padding: 3px 10px 4px;
+    font-size: 11px;
+    text-decoration: none;
+}
+.wcz-meta-setting button.button.hide,
+.wcz-meta-setting .wcz-custom-rm.hide {
+    display: none;
+}
