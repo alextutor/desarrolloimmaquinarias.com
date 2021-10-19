@@ -1,19 +1,4 @@
 /*
-$(function() {
-    $(window).on("scroll", function() {
-        if($(window).scrollTop() > 50) {
-            $(".elementor-sticky--effects").addClass("active");
-        } else {
-            //remove the background property so it comes transparent again (defined in your css)
-           $(".elementor-sticky--effects").removeClass("active");
-        }
-    });
-});
-*/
-
-/*Alex recuerda para addClass deves ponerle a la seccion de elementor un ID y con ese ID se le asigna una clase 
-Funcion para que la cabecera al hacer scroll cambie de color
-*/
 jQuery(function($) {
 	 var $cabecera = $('#header_ctn');
 	  $('#header_ctn').css('-webkit-transition','transform 0.6s')
@@ -35,7 +20,7 @@ jQuery(function($) {
           $('.hfe-site-logo-img').css('height','60px')
          
           $('#mimenu-principal li a').css('color','#ffffff')
-          $('#mimenu-principal li a:active').css('color','#000000')
+         // $('#mimenu-principal li a:active').css('color','#000000')
             
           
        } else {
@@ -52,6 +37,26 @@ jQuery(function($) {
        previousScroll = scroll;    });
        
 });
+
+
+*/
+
+/*
+$(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $(".elementor-sticky--effects").addClass("active");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".elementor-sticky--effects").removeClass("active");
+        }
+    });
+});
+*/
+
+/*Alex recuerda para addClass deves ponerle a la seccion de elementor un ID y con ese ID se le asigna una clase 
+Funcion para que la cabecera al hacer scroll cambie de color
+*/
 
 
 /*----para cambiar color y darle transicion a los iconos  envio gratis / Delivery /Pago con tarjeta / etc  y sus respectivos textos */
