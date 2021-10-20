@@ -1,0 +1,41 @@
+
+/*Inicio CSS productos portada*/
+
+/*Titulo General Portada Productos */
+.titulo_nuestros_productos{word-spacing: 15px;}
+
+.elementor-products-grid ul.products.elementor-grid li.product{
+	width:350px; /*Ancho de las cajas de cada producto portada*/
+}
+.elementor-products-grid ul.products.elementor-grid li.product{padding: 10px;}
+
+.woocommerce ul.products .product-inner {  background-image: url('imagen/productos/fondo1-imagen.png'); /* The image used */  
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+	}
+
+.woocommerce ul.products .product-inner:hover{
+/*	box-shadow: 1px 1px 3px 3px #9ac3f1;
+    margin-top: 0px;
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgb(0 0 0 / 15%);*/
+}
+
+/* Nombre del producto */
+.woocommerce ul.products li.product li.title h2, .woocommerce ul.products li.product li.title a {
+    font-weight: 700;color: #252525; padding: 0px; display: inline-block; font-family: inherit; font-size: 16px;line-height: 1.5;height: 30px;
+}
+
+/* Precio Producto */
+.woocommerce ul.products li.product .price {color: #c39b73;    font-weight: 500;}
+
+.woocommerce ul.products li.product .price .amount
+{color: #c39b73!important;}
+
+/* Boton Agregar Carrito */
+.add_to_cart_button{background-color:#C39B73!important;border: none!important;width: 100%;}
+.add_to_cart_button:hover{background-color: red;}
+
+/*------------FIN CSS productos portada-------*/
