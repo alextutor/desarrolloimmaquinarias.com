@@ -1,0 +1,36 @@
+git filter-branch  --tree-filter  'rm -rf ruta / a / su / archivo' HEAD
+ git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+remote: error: Trace: 
+
+git filter-branch --tree-filter 'rm -rf path/to/your/file' HEAD
+git push
+
+
+git filter-branch  --tree-filter  'rm -rf ruta / a / su / archivo' HEAD
+ git push
+
+git filter-branch --tree-filter 'rm -rf wp-content/ai1wm-backups/www.desarrolloimmaquinarias.com-20211015-203447-vsqnix.wpress' HEAD
+ 
+
+https://git-scm.com/docs/git-filter-branch
+
+Le permite reescribir el historial de revisiones de Git reescribiendo las ramas mencionadas
+aplicando filtros personalizados en cada revisión. Esos filtros pueden modificar cada árbol (por ejemplo, eliminar un archivo
