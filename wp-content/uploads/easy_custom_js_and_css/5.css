@@ -9,8 +9,13 @@
 }
 .elementor-products-grid ul.products.elementor-grid li.product{padding: 10px;}
 
+
+
+/*----Inicio Contendor de cada item producto*/
+.woocommerce .products .product-inner { padding: 0px!important;  }
+
 .woocommerce ul.products .product-inner {  background-image: url('imagen/productos/fondo1-imagen.png'); /* The image used */  
-  height: 500px; /* You must set a specified height */
+  height: auto; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -22,6 +27,14 @@
     transform: scale(1.05);
     box-shadow: 0 0 40px rgb(0 0 0 / 15%);*/
 }
+
+/*--- Fin Contendor de cada item producto*/
+
+
+/* Inicio imagen del producto */
+
+
+/* Fin imagen del producto */
 
 /* Nombre del producto */
 .woocommerce ul.products li.product li.title h2, .woocommerce ul.products li.product li.title a {
@@ -35,7 +48,41 @@
 {color: #c39b73!important;}
 
 /* Boton Agregar Carrito */
-.add_to_cart_button{background-color:#C39B73!important;border: none!important;width: 100%;}
-.add_to_cart_button:hover{background-color: red;}
+.add_to_cart_button{background-color:#C39B73!important;border: none!important;width: 100%;justify-content: center;color: #ffffff!important;
+      font-size: 14px!important; }
+
+.add_to_cart_button:hover{background-color:#0D7031!important;}
+
+/*   boton añadir al carrito (agregar el icono con FontAwesome   del carrito  ) */
+.add_to_cart_button:before { 
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free' !important;
+    content: "\f07a" !important;
+    font-weight: 700 !important;
+    margin-right: 0.5em;
+     font-size: 16px;
+} 
+
+.single_add_to_cart_button.button:before{font-family: "Font Awesome 5 Free";content: "\f07a";margin-right:10px;}
+
+
+/*--boton añadir al carrito (para poner el icono del carrito alineado con el texto añadir al carrito) */
+/* .woocommerce ul.products li.product .button{display: flex; line-height: 2; } */
+
+/* -boton añadir al carrito (agregar el icono del carrito  ) */
+/*
+.add_to_cart_button:before { content: ' '; background-image: url('imagen/svg/shopping-cart.svg'); background-size: 28px 28px; 
+height: 28px; width: 28px; display: inline-block;margin-right: 10px;}
+*/
+
+
 
 /*------------FIN CSS productos portada-------*/
+
+/*------------Inicio CSS Detalle Productos-------*/
+
+/* Referencia a la imagen delproducto en el detall */
+.product .images {}
+.product .summary {width:100% !important;}
+
+/*------------Fin CSS Detalle Productos-------*/
